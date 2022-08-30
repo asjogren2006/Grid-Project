@@ -1,0 +1,21 @@
+:root {
+    --skyBlue: rgb(77, 139, 211);
+    --Cloudy: rgb(190, 226, 233);
+    --TextSize: 18px;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--skyBlue);
+}
+
+.item {
+    background-color: var(--Cloudy);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: var(--TextSize);
+}
