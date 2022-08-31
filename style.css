@@ -19,3 +19,26 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: var(--TextSize);
 }
+
+.grid {
+    display: grid;
+    
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .grid {
+        display: grid;
+        
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .grid {
+        display: grid;
+        
+    }
+}
+
