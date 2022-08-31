@@ -22,7 +22,9 @@ html {
 
 .grid {
     display: grid;
-    
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(7, 10vh);
+    grid-gap: 5px;
 }
 
 
