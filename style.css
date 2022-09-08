@@ -23,7 +23,7 @@ html {
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(7, 13.5vh);
     grid-gap: 5px;
 }
@@ -39,10 +39,16 @@ html {
 
 .item2 {
     grid-row: span 3;
-    background-image: url(images/bigger.png);
+    /* background-image: url(images/bigger.png); */
     display: flex;
     background-size: cover;
     background-attachment:local;
+}
+
+.first {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .item3 {
@@ -63,10 +69,13 @@ html {
 
 .item7 {
     grid-row: span 3;
-    background-image: url(images/variable.png);
-    display: flex;
-    background-size: contain; 
-    
+    /* background-image: url(images/variable.png); */
+}
+
+.second {
+    height: 120%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .item8 {
@@ -89,7 +98,7 @@ html {
 
     .item2 {
         grid-row: span 3;
-        background-image: url(images/bigger.png);
+
         display: flex;
         background-size: cover;
         
@@ -107,7 +116,8 @@ html {
         justify-content: center;
         align-items: center;
         position: relative;
-        
+        height: auto;
+        width: auto;        
     }
 
     .item2 {
